@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Consulting</title>
+    <link rel="stylesheet" href="./../footer.css">
+    <link rel="stylesheet" href="./../header.css">
+    <link rel="stylesheet" href="consulting.css">
+    <link rel="stylesheet" href="./../common.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="./../header.js"></script>
+    <script src="./../footer.js"></script>
+    <script>
+      $(document).ready(function(){
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </head>
+  <body>
+    <header class="hdr">
+      <div class="left-hdr">
+        <img src="./../ed2_logo.png"/>
+      </div>
+      <div class="right-hdr">
+        <a class="nav-links" href="./../contact/contact.html" target="_blank">Contact</a>
+        <a class="nav-links" href="./../career/career.html" target="_blank">Careers</a>
+        <a class="nav-links" href="./../media/media.html" target="_blank">Media</a>
+        <a class="nav-links" href="./../consulting/consulting.html" target="_blank">Consulting</a>
+        <a class="nav-links" href="./../product/product.html" target="_blank">Product</a>
+      </div>
+      <div class="mob-right-hdr">
+        <img src="./../header_hamburger.png" onclick="toggleHamburger()"/>
+        <div class="mob-right-hdr-cont" id="header-hamburger-content">
+          <a class="nav-links" href="./../contact/contact.html" target="_blank">Contact</a>
+          <a class="nav-links" href="./../career/career.html" target="_blank">Careers</a>
+          <a class="nav-links" href="./../media/media.html" target="_blank">Media</a>
+          <a class="nav-links" href="./../consulting/consulting.html" target="_blank">Consulting</a>
+          <a class="nav-links" href="./../product/product.html" target="_blank">Product</a>
+        </div>
+      </div>
+    </header>
+
+    <section class="scrn1">
+      <div class="scrn1-form">
+        <div class="scrn1-form-title">Let’s Help Your Business!</div>
+        <div class="scrn1-form-user-inputs">
+          <input class="scrn1-form-user-input-field" type="text" placeholder="Name"/>
+          <input class="scrn1-form-user-input-field" type="text" placeholder="Company URL"/>
+          <input class="scrn1-form-user-input-field" type="text" placeholder="Email ID"/>
+          <input class="scrn1-form-user-input-field" type="text" placeholder="Phone Number"/>
+        </div>
+        <button class="scrn1-form-btn">BOOK A CALL</button>
+      </div>
+
+      <div class="scrn1-desc">
+        <div class="scrn1-desc-hdng">EarlyDetect is determined to provide the best <span class="red-font">Healthcare Consulting Services</span></div>
+        <p class="scrn1-desc-content-1">We are passionately solving pressing problems in the healthcare ecosystem. Here is what we have already built and still enhancing to reshape a better healthcare system:</p>
+        <p class="scrn1-desc-content-2">
+          <span data-toggle="tooltip" data-placement="top" title="MIHIC">MIHIC</span> |
+          <span data-toggle="tooltip" data-placement="top" title="Sepsis Prediction">Sepsis Prediction</span> |
+          <span data-toggle="tooltip" data-placement="top" title="CKD Risk Assessment">CKD Risk Assessment</span> |
+          <span data-toggle="tooltip" data-placement="top" title="IVF Prediction">IVF Prediction</span> |
+          <span data-toggle="tooltip" data-placement="top" title="Healthcare Cost Prediction">Healthcare Cost Prediction</span> |
+          <span data-toggle="tooltip" data-placement="top" title="Pathology Data Assessment">Pathology Data Assessment</span>
+        </p>
+      </div>
+    </section>
+
+    <section class="scrn2">
+      <div class="scrn2-hdng">We are &nbsp;<span class="red-font"> trusted by</span></div>
+      <div class="scrn2-partners">
+        <img src="./../bwh-logo.png"/>
+        <img src="./../mod_logo.png"/>
+        <img src="./../lvpei_logo.png"/>
+      </div>
+    </section>
+
+    <section class="scrn3">
+      <div class="scrn3-hdng">Book a Call to Get <br/> Immediate Assistance on </div>
+      <div class="scrn3-usps-cont">
+        
+        <div class="scrn3-usp">
+          <div class="scrn3-usp-img"></div>
+          <span class="scrn3-usp-label">USP 1</span>
+        </div>
+
+        <div class="scrn3-usp">
+          <div class="scrn3-usp-img"></div>
+          <span class="scrn3-usp-label">USP 2</span>
+        </div>
+
+        <div class="scrn3-usp">
+          <div class="scrn3-usp-img"></div>
+          <span class="scrn3-usp-label">USP 3</span>
+        </div>
+
+      </div>
+
+      <button class="scrn3-btn" type="button"  data-toggle="modal" data-target="#exampleModalCenter">BOOK A CALL</button>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="scrn1-form">
+              <div class="scrn1-form-title">Let’s Help Your Business!</div>
+              <div class="scrn1-form-user-inputs">
+                <input class="scrn1-form-user-input-field" type="text" placeholder="Name"/>
+                <input class="scrn1-form-user-input-field" type="text" placeholder="Company URL"/>
+                <input class="scrn1-form-user-input-field" type="text" placeholder="Email ID"/>
+                <input class="scrn1-form-user-input-field" type="text" placeholder="Phone Number"/>
+              </div>
+              <button class="scrn1-form-btn">BOOK A CALL</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="ftr">
+
+      <div class="desktop-ftr-cont">
+        <div class="left-ftr">
+          <span class="company-name">EarlyDetect</span>
+          <span>1313 N Milpitas Blvd Milpitas, CA, United States - 95035</span>
+          <span class="company-mail-cont"><span class="company-mail">info@cognitivecare.com</span> +123 345123 556</span>
+          <span>© 2021, by EarlyDetect, LLC</span>
+        </div>
+        <div class="right-ftr">
+          <div class="site-links-cont">
+            <a class="site-links" href="./../contact/contact.html" target="_blank">Contact</a>
+            <a class="site-links" href="./../career/career.html" target="_blank">Careers</a>
+            <a class="site-links" href="./../media/media.html" target="_blank">Media</a>
+            <a class="site-links" href="./../consulting/consulting.html" target="_blank">Consulting</a>
+            <a class="site-links" href="./../product/product.html" target="_blank">Product</a>
+          </div>
+          <div class="ftr-social-media">
+            <a href="https://www.facebook.com/care.cognitive/" target="_blank"><img src="./../fb-footer.png" /></a>
+            <a href="https://twitter.com/care_cognitive/" target="_blank"><img src="./../tt-footer.png" /></a>
+            <a href="https://bit.ly/3qpHfq1" target="_blank"><img src="./../yt-footer.png" /></a>
+            <a href="https://bit.ly/3CXSddH" target="_blank"><img src="./../li-footer.png" /></a>
+            <p>Follow us around the web - &nbsp;&nbsp;</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="mob-ftr-cont">
+        <div class="mob-ftr-address">
+          <div class="left-ftr">
+            <span class="company-name">EarlyDetect</span>
+            <span>1313 N Milpitas Blvd Milpitas, CA, United States - 95035</span>
+            <span class="company-mail-cont"><span class="company-mail">info@cognitivecare.com</span> +123 345123 556</span>
+          </div>
+          <div class="right-ftr">
+            <img src="./../footer_hamburger.png" onclick="toggleFooterHamburger()"/>
+            <div class="mob-site-links-cont" id="footer-hamburger-content">
+              <a class="site-links" href="./../contact/contact.html" target="_blank">Contact</a>
+              <a class="site-links" href="./../career/career.html" target="_blank">Careers</a>
+              <a class="site-links" href="./../media/media.html" target="_blank">Media</a>
+              <a class="site-links" href="./../consulting/consulting.html" target="_blank">Consulting</a>
+              <a class="site-links" href="./../product/product.html" target="_blank">Product</a>
+            </div>
+          </div>
+        </div>
+        <div class="mob-ftr-social-contact">
+          <div class="ftr-social-media">
+            <a href="https://www.facebook.com/care.cognitive/" target="_blank"><img src="./../fb-footer-mob.png" /></a>
+            <a href="https://twitter.com/care_cognitive/" target="_blank"><img src="./../tt-footer-mob.png" /></a>
+            <a href="https://bit.ly/3qpHfq1" target="_blank"><img src="./../yt-footer-mob.png" /></a>
+            <a href="https://bit.ly/3CXSddH" target="_blank"><img src="./../li-footer-mob.png" /></a>
+            <p>Follow us around the web - &nbsp;&nbsp;</p>
+          </div>
+        </div>
+        <span class="ftr-copy-right">© 2021, by EarlyDetect, LLC</span>
+      </div>
+    </footer>
+  </body>
+</html>

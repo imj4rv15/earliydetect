@@ -1,0 +1,129 @@
+.carousel-control-prev-icon, .carousel-control-next-icon, .carousel-indicators {
+  background-color: black !important;
+  
+}
+
+.carousel-indicators {
+  background-color: black !important;
+  opacity: 0.4;
+  border-radius: 20px;
+}
+
+.modal .scrn1-form {
+  width: 100%;
+}
+
+.scrn1-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+  width: calc(50% - 33px);
+}
+
+.scrn1-form-title {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  margin-top: 44px;
+  margin-bottom: 20px;
+}
+
+.scrn1-form-user-inputs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 43px;
+  flex-wrap: wrap;
+}
+
+.modal .scrn1-form-user-input-field {
+  width: 200px;
+}
+
+.scrn1-form-user-input-field {
+  width: 240px;
+  border: 1px solid #C4C4C4;
+  box-sizing: border-box;
+  border-radius: 12px;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  color: #363843;
+  opacity: 0.64;
+  margin-top: 14px;
+  margin-bottom: 10px;
+  padding: 4px 12px;
+  outline: none;
+}
+
+.scrn1-form-btn {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 34px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #FFFFFF;
+  background: #E83D48;
+  border-radius: 60px;
+  margin-bottom: 42px;
+  padding: 7px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) {
+
+  .modal .scrn1-form {
+    margin: 0 auto;
+  }
+
+  .scrn1-form {
+    width: unset;
+    margin: 31px 10px 42px;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
+    border-radius: 12px;
+  }
+
+  .scrn1-form-title {
+    font-size: 18px;
+    line-height: 34px;
+    margin-top: 22px;
+    margin-bottom: unset;
+  }
+
+  .scrn1-form-user-input-field {
+    width: 40%;
+    border-radius: 12px;
+    font-size: 12px;
+    line-height: 34px;
+    margin-top: 14px;
+    margin-bottom: unset;
+    padding: 2px 7px;
+  }
+
+  .scrn1-form-btn {
+    font-size: 12px;
+    line-height: 34px;
+    margin-bottom: 17px;
+    padding: 4px 8px;
+  }
+
+  .scrn1-form-user-inputs {
+    margin-bottom: 38px;
+  }
+}

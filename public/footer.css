@@ -1,0 +1,205 @@
+a {
+  text-decoration: none !important;
+  color: unset !important;
+}
+
+button:focus {
+  border: none;
+  outline: none !important;
+}
+
+.ftr {
+  height: 243px;
+  padding: 0 112px;
+  background: #E83D48;
+  color: #FFFFFF;
+}
+
+.desktop-ftr-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mob-ftr-cont {
+  display: none;
+}
+
+.left-ftr {
+  display: flex;
+  flex-direction: column;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  margin: 60px 0 70px;
+}
+
+.company-name {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 47px;
+  margin-bottom: 1px;
+}
+
+.company-mail-cont {
+  margin-bottom: 7px;
+  margin-top: 5px;
+}
+
+.company-mail {
+  text-decoration-line: underline;
+}
+
+.right-ftr {
+  margin: 70px 0 90px;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-links-cont {
+  display: flex;
+  flex-direction: row-reverse;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 23px;
+  margin-bottom: 32px;
+}
+
+.site-links {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.ftr-social-media {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
+
+.ftr-social-media p {
+  margin: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.8;
+}
+
+.ftr-social-media img {
+  margin: 0 10px 0 20px;
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 480px) { 
+  .ftr {
+    padding: 0 14px;
+    height: 278px;
+    position: relative;
+  }
+
+  .desktop-ftr-cont {
+    display: none;
+  }
+
+  .mob-ftr-cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .mob-ftr-address {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .left-ftr {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 30px 0 15px;
+    width: 50%;
+  }
+
+  .right-ftr {
+    margin: unset;
+    margin-top: 30px;
+  }
+
+  .company-name {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+  .site-links-cont {
+    display: none;
+  }
+
+  .company-mail-cont {
+    flex-wrap: wrap;
+    display: flex;
+  }
+
+  .mob-ftr-cont .ftr-social-media img {
+    margin: 0 10px 0 15px;
+  }
+
+  .mob-ftr-cont .ftr-social-media {
+    background: #FFFFFF;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 12px;
+    padding: 15px 17px;
+  }
+
+  .mob-ftr-cont .ftr-social-media p {
+    font-size: 12px;
+    line-height: 18px;
+    color: #72737C;
+    opacity: 0.8;
+  }
+
+  .ftr-copy-right {
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 16px;
+    color: #FFFFFF;
+    margin-top: 20px;
+  }
+
+  @keyframes footer-hamburger {
+    from {top: 0; height: 0;}
+    to {top: -220px; height: 220px;}
+  }
+
+  .mob-site-links-cont {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    right: 0;
+    left: 50%;
+    z-index: 100;
+    top: -220px;
+    background: #E83D48;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    box-shadow: 0px -9px 12px 12px rgb(0 0 0 / 12%);
+    animation-name: footer-hamburger;
+    animation-duration: 1s;
+    overflow: hidden;
+  }
+
+  .site-links {
+    margin: 10px 22px;
+    text-align: center;
+    color: unset;
+    font-weight: 400;
+    line-height: 1.5;
+  }
+
+}
