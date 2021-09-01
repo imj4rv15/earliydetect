@@ -1,6 +1,6 @@
 body {
   margin: 0 auto !important;
-  max-width: 1440px;
+  max-width: 1980px;
 }
 
 .hdr {
@@ -18,7 +18,7 @@ body {
 }
 
 .hdr .prly {
-  font-family: 'Open Sans';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -43,16 +43,16 @@ body {
 }
 
 .scrn1-hdr {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
   line-height: 72px;
-  color: #575757;
+  color: #7b53e8;
 }
 
 .scrn1-hdr span::before {
-  color: #e83d48;
+  color: #cd43b2;
   content: "Save Lives?";
   animation: animate infinite 8s;
 }
@@ -72,11 +72,11 @@ body {
 }
 
 .scrn1-desc {
-  font-family: 'Open Sans';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -96,7 +96,7 @@ body {
   box-sizing: border-box;
   border-radius: 60px;
   padding-left: 37px;
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -109,14 +109,14 @@ body {
   position: absolute;
   top: 10px;
   right: 10px;
-  background: #E83D48;
+  background: #7B53E8;
   box-shadow: 0px 19px 29px rgba(62, 53, 120, 0.14);
   border-radius: 37px;
   width: 196.79px;
   height: 60px;
   border: none;
   outline: none;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -130,7 +130,7 @@ body {
 }
 
 .scrn2-hdr {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -153,11 +153,11 @@ body {
 }
 
 .scrn2-detail {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   display: flex;
   align-items: center;
   color: #575757;
@@ -172,12 +172,13 @@ body {
 
 .scrn2-btn {
   padding: 10px 20px;
-  border: 1px solid #E83D48;
+  border: 2px solid #7B53E8;
   box-sizing: border-box;
+  font-weight: 600;
   border-radius: 50px;
   margin-right: 12px;
   cursor: pointer;
-  text-decoration: none;
+  /* text-decoration: none; */
   color: unset;
 }
 
@@ -194,12 +195,12 @@ body {
   height: 872px;
   display: flex;
   justify-content: center;
-  background: #E83D48;
+  background: #7B53E8;
   flex-direction: column;
 }
 
 .scrn3-title {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -239,7 +240,7 @@ body {
 }
 
 .help-title {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -257,7 +258,7 @@ body {
 
 .help-content-cont p {
   text-align: left;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -271,16 +272,16 @@ body {
 }
 
 .help-button {
-  border: 1px solid #E83D48;
+  border: 1px solid #7B53E8;
   box-sizing: border-box;
   filter: drop-shadow(0px 19px 29px rgba(62, 53, 120, 0.14));
   border-radius: 37px;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  color: #E83D48;
+  color: #7B53E8;
   background: transparent;
   padding: 9px 20px;
   text-decoration: none;
@@ -294,7 +295,7 @@ body {
 }
 
 .scrn4-title {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -304,18 +305,18 @@ body {
 }
 
 .scrn4-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 18px;
+  line-height: 28px;
   color: rgba(0, 0, 0, 0.6);
   width: 100%;
   margin-bottom: 50px;
 }
 
 .scrn4-desc span {
-  width: 530px;
+  width: 560px;
   display: block;
   margin-top: 20px;
 }
@@ -342,7 +343,7 @@ body {
   padding: 0px 10px;
   font-size: 12px;
   line-height: 34px;
-  background: #E83D48;
+  background: #7B53E8;
   color: #FFFFFF;
   font-weight: bold;
   opacity: 0.9;
@@ -379,7 +380,7 @@ body {
   padding: 0px 10px;
   font-size: 12px;
   line-height: 34px;
-  background: #E83D48;
+  background: #7B53E8;
   color: #FFFFFF;
   font-weight: bold;
   opacity: 0.9;
@@ -411,7 +412,7 @@ body {
   padding: 0px 10px;
   font-size: 12px;
   line-height: 34px;
-  background: #E83D48;
+  background: #7B53E8;
   color: #FFFFFF;
   font-weight: bold;
   opacity: 0.9;
@@ -451,7 +452,7 @@ body {
 }
 
 .scrn4-sub-btn {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 16px;
@@ -459,7 +460,7 @@ body {
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  background: #E83D48;
+  background: #7B53E8;
   border-radius: 60px;
   margin-top: 60px;
   padding: 11px 43px;

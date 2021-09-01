@@ -8,7 +8,7 @@ p {
 }
 
 .red-font {
-  color: #E83D48;
+  color: #7B53E8;
 }
 
 .pointer {
@@ -16,7 +16,7 @@ p {
 }
 
 .scrn1 {
-  background: #E83D48;
+  background: #7B53E8;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -24,11 +24,11 @@ p {
 }
 
 .scrn1-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
-  line-height: 75px;
+  line-height: 72px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -37,11 +37,11 @@ p {
 }
 
 .scrn1-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: bold;
   font-size: 21px;
-  line-height: 22px;
+  line-height: 28px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -52,12 +52,12 @@ p {
 .scrn1-btn {
   background: #FFFFFF;
   border-radius: 37px;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
   line-height: 27px;
-  color: #E83D48;
+  color: #7B53E8;
   padding: 14px 25px;
   border: none;
   outline: none;
@@ -96,21 +96,21 @@ p {
 }
 
 .product-desc-title {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 34px;
   line-height: 42px;
   color: #363843;
-  margin-bottom: 45px;
+  margin-bottom: 36px;
 }
 
 .product-desc-content {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 22px;
+  line-height: 28px;
   color: #575757;
 }
 
@@ -127,7 +127,7 @@ p {
 @media only screen and (max-width: 480px) {
 
   .scrn1 {
-    background: #E83D48;
+    background: #7B53E8;
     display: flex;
     flex-direction: column;
     align-items: center;

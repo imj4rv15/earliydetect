@@ -4,7 +4,7 @@ body {
 }
 
 .scrn1 {
-  background: #E83D48;
+  background: #7B53E8;
   color: #FFFFFF;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@ body {
 }
 
 .scrn1-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -25,11 +25,11 @@ body {
 }
 
 .scrn1-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
-  line-height: 22px;
+  line-height: 28px;
   display: flex;
   align-items: center;
   text-align: center;
@@ -55,12 +55,12 @@ body {
 }
 
 .user-inputs textarea {
-  color: #e83d48;
+  color: #7B53E8;
   background: #FFFFFF;
   opacity: 0.6;
   border-radius: 24px;
   outline: none;
-  font-family: 'Open Sans';
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -73,7 +73,7 @@ body {
 
 ::placeholder {
   color: #FFFFFF;
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -88,7 +88,7 @@ body {
   border: none;
   color: #FFFFFF;
   padding-left: 25px;
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -105,7 +105,7 @@ body {
 }
 
 .scrn2-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;

@@ -11,7 +11,7 @@ button:focus {
 .ftr {
   height: 243px;
   padding: 0 112px;
-  background: #E83D48;
+  background: #7B53E8;
   color: #FFFFFF;
 }
 
@@ -27,16 +27,16 @@ button:focus {
 .left-ftr {
   display: flex;
   flex-direction: column;
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
-  line-height: 19px;
+  line-height: 18px;
   margin: 60px 0 70px;
 }
 
 .company-name {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -62,7 +62,7 @@ button:focus {
 .site-links-cont {
   display: flex;
   flex-direction: row-reverse;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -83,7 +83,7 @@ button:focus {
 
 .ftr-social-media p {
   margin: 0;
-  font-family: Poppins;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -163,7 +163,7 @@ button:focus {
   }
 
   .ftr-copy-right {
-    font-family: Open Sans;
+    font-family: Arial, Helvetica, sans-serif ;
     font-style: normal;
     font-weight: normal;
     font-size: 12px;
@@ -185,7 +185,7 @@ button:focus {
     left: 50%;
     z-index: 100;
     top: -220px;
-    background: #E83D48;
+    background: #7B53E8;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 0px -9px 12px 12px rgb(0 0 0 / 12%);

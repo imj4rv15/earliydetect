@@ -8,12 +8,12 @@ p {
 }
 
 .scrn1 {
-  background: #E83D48;
+  background: #7B53E8;
   padding: 68px 78px 0;
 }
 
 .scrn1-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -25,15 +25,15 @@ p {
 }
 
 .scrn1-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 28px;
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  width: 70%;
+  width: 80%;
 }
 
 .pod-cast-cont {
@@ -54,19 +54,19 @@ p {
   height: 440px;
   background: linear-gradient(180deg, rgba(0, 0, 0, 0.01) 0%, rgba(0, 0, 0, 0.51) 100%);
   border-radius: 20px;
-  margin-right: 60px;
+  margin-right: 40px;
 }
 
 .pod-cast-video-label {
   position: absolute;
-  background: #E83D48;
+  background: #7B53E8;
   border-radius: 60px;
   top: 24px;
   right: 29px;
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 34px;
   display: flex;
   align-items: center;
@@ -77,7 +77,7 @@ p {
 
 .pod-cast-video-title {
   position: absolute;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -100,22 +100,22 @@ p {
   width: 28%;
   align-self: center;
   display: flex;
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 25px;
+  font-size: 16px;
+  line-height: 28px;
   text-align: justify;
   color: #575757;
 }
 
 .scrn2 {
-  background: #E83D48;
+  background: #7B53E8;
   padding: 93px 78px 0;
 }
 
 .scrn2-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -127,15 +127,15 @@ p {
 }
 
 .scrn2-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 28px;
   display: flex;
   align-items: center;
   color: #FFFFFF;
-  width: 70%;
+  width: 80%;
 }
 
 .scrn2-blogs {
@@ -182,10 +182,10 @@ p {
 
 .scrn2-blog-desc-title {
   margin-bottom: 30px;
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 42px;
   display: flex;
   align-items: center;
@@ -193,10 +193,10 @@ p {
 }
 
 .scrn2-blog-desc-content {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
+  font-size: 18px;
   line-height: 28px;
   display: flex;
   align-items: center;
@@ -205,7 +205,7 @@ p {
 
 @media only screen and (max-width: 480px) {
   body {
-    background: #E83D48;
+    background: #7B53E8;
   }
 
   .scrn1 {
@@ -330,7 +330,7 @@ p {
     padding: 0px 10px;
     font-size: 12px;
     line-height: 34px;
-    background: #E83D48;
+    background: #7B53E8;
     color: #FFFFFF;
     font-weight: bold;
     opacity: 0.9;

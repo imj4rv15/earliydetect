@@ -4,7 +4,7 @@ body {
 }
 
 .scrn1 {
-  background: #E83D48;
+  background: #7B53E8;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -13,10 +13,10 @@ body {
 }
 
 .scrn1-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 36px;
   line-height: 54px;
   display: flex;
   align-items: center;
@@ -39,7 +39,7 @@ body {
 }
 
 .scrn1-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 28px;
@@ -86,7 +86,7 @@ body {
 }
 
 .notification {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
