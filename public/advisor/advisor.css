@@ -1,6 +1,6 @@
 body {
   margin: 0 auto !important;
-  max-width: 1440px;
+  max-width: 1980px;
   background-color: #f0f4f8;
 }
 
@@ -17,8 +17,10 @@ h4 {
 
 .scrn1-hdng {
   color: #7B53E8;
-  font-size: 36px;
-  font-weight: 700;
+  font-size: 40px;
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
 }
 
 .advisor-image-cont {
@@ -55,6 +57,7 @@ h4 {
 .advisor-image-cont h4 {
   position: relative;
   margin-bottom: 10px;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   padding-bottom: 10px;
 }
@@ -66,6 +69,7 @@ h4 {
 
 .designation span {
   font-style: italic;
+  font-family: Arial, Helvetica, sans-serif;
   display: block;
   font-size: 13px;
 }
@@ -83,9 +87,10 @@ h4 {
 
 .advisor-detail {
     width: 70%;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 26px;
 }
 
 @media only screen and (max-width: 480px) {

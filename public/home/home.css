@@ -172,10 +172,10 @@ body {
 
 .scrn2-btn {
   padding: 10px 20px;
-  border: 2px solid #7B53E8;
+  border: 2px solid #7B53E8; /* Changed border from 1px to 2px */
   box-sizing: border-box;
   font-weight: 600;
-  border-radius: 50px;
+  border-radius: 37px;
   margin-right: 12px;
   cursor: pointer;
   /* text-decoration: none; */
@@ -229,7 +229,7 @@ body {
   opacity: 0.92;
   box-shadow: 0.5px 3px 10px #FAFAFA;
   padding: 30px 35px;
-  margin-bottom: 5px;
+  margin-bottom: 10px; /* Changed from 5px to 10px */
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -245,13 +245,14 @@ body {
   font-weight: bold;
   font-size: 24px;
   line-height: 24px;
-  color: #72737C;
-  opacity: 0.92;
+  color: #575757;
+  /* opacity: 0.921; */
   margin-bottom: 30px;
 }
 
 .help-content-cont {
   text-align: center;
+  font-weight: normal;
   display: flex;
   flex-direction: column;
 }
@@ -260,10 +261,10 @@ body {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
-  color: #000000;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #797979; /* Changed from 575757 to 797979 and also adjusted font weight to normal */
 }
 
 .scrn3-btn-cont {
@@ -272,14 +273,14 @@ body {
 }
 
 .help-button {
-  border: 1px solid #7B53E8;
+  border: 2px solid #7B53E8; /* Changed broder from 1px to 2px */
   box-sizing: border-box;
   filter: drop-shadow(0px 19px 29px rgba(62, 53, 120, 0.14));
   border-radius: 37px;
   font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 27px;
   color: #7B53E8;
   background: transparent;
@@ -300,7 +301,7 @@ body {
   font-weight: bold;
   font-size: 40px;
   line-height: 47px;
-  color: #72737C;
+  color: #575757;
   width: 100%;
 }
 
