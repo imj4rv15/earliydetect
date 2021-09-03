@@ -13,7 +13,7 @@ body {
 }
 
 .scrn1-hdng {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -25,7 +25,7 @@ body {
 }
 
 .scrn1-desc {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -60,7 +60,7 @@ body {
   opacity: 0.6;
   border-radius: 24px;
   outline: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -73,7 +73,7 @@ body {
 
 ::placeholder {
   color: #FFFFFF;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -88,7 +88,7 @@ body {
   border: none;
   color: #FFFFFF;
   padding-left: 25px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
@@ -105,7 +105,7 @@ body {
 }
 
 .scrn2-hdng {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;

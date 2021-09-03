@@ -20,7 +20,7 @@ h4 {
   color: #7B53E8;
   font-size: 40px;
   line-height: 50px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-weight: bold;
 }
 
@@ -59,7 +59,7 @@ h4 {
   position: relative;
   margin-bottom: 10px;
   font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   padding-bottom: 10px;
 }
 
@@ -71,7 +71,7 @@ h4 {
 .designation span {
   font-style: italic;
   display: block;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 13px;
 }
 
@@ -88,14 +88,14 @@ h4 {
 
 .leader-detail {
     width: 70%;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 16px;
     font-weight: normal;
     line-height: 26px;
 }
 
 .info {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 21px;
   font-weight: normal;
   line-height: 28px;

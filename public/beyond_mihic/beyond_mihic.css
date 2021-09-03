@@ -1,6 +1,6 @@
 body {
   margin: 0 auto !important;
-  max-width: 1440px;
+  max-width: 1980px;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -14,7 +14,7 @@ p {
 }
 
 .scrn1-hdng {
-  font-family: Roboto;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -25,12 +25,13 @@ p {
 }
 
 .scrn1-desc {
-  font-family: Open Sans;
+  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
-  line-height: 25px;
+  line-height: 27px;
   margin-bottom: 1rem;
+  width: 80%;
 }
 
 .link {
@@ -43,13 +44,13 @@ p {
 
 .section-title h2 {
   font-size: 14px;
-  font-weight: 500;
+  font-weight: bold;
   padding: 0;
   margin: 0 0 5px 0;
   letter-spacing: 2px;
   text-transform: uppercase;
-  color: #ff4a17;
-  font-family: "Poppins", sans-serif;
+  color: #7b53e8;
+  font-family: "Open Sans", sans-serif;
 }
 
 .section-title h2::after {
@@ -57,7 +58,7 @@ p {
   width: 120px;
   height: 1px;
   display: inline-block;
-  background: #ff4a17;
+  background: #7b53e8;
   margin: 4px 10px;
 }
 
@@ -76,9 +77,9 @@ p {
 
 .work-desc {
   width: 70%;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 500;
-  line-height: 1.5;
+  line-height: 24px;
   display: flex;
   flex-direction: column;
   align-self: center;

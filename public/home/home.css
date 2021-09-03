@@ -18,7 +18,7 @@ body {
 }
 
 .hdr .prly {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
@@ -43,7 +43,7 @@ body {
 }
 
 .scrn1-hdr {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 64px;
@@ -72,7 +72,7 @@ body {
 }
 
 .scrn1-desc {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -96,7 +96,7 @@ body {
   box-sizing: border-box;
   border-radius: 60px;
   padding-left: 37px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -116,7 +116,7 @@ body {
   height: 60px;
   border: none;
   outline: none;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 18px;
@@ -130,7 +130,7 @@ body {
 }
 
 .scrn2-hdr {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -153,7 +153,7 @@ body {
 }
 
 .scrn2-detail {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   letter-spacing: 0.1px;
   font-style: normal;
   font-weight: normal;
@@ -201,7 +201,7 @@ body {
 }
 
 .scrn3-title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 36px;
@@ -241,7 +241,7 @@ body {
 }
 
 .help-title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 24px;
@@ -260,7 +260,7 @@ body {
 
 .help-content-cont p {
   text-align: left;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -295,7 +295,7 @@ body {
 }
 
 .scrn4-title {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
@@ -305,7 +305,7 @@ body {
 }
 
 .scrn4-desc {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

@@ -13,7 +13,7 @@ p {
 }
 
 .scrn1-hdng {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -25,7 +25,7 @@ p {
 }
 
 .scrn1-desc {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -63,7 +63,7 @@ p {
   border-radius: 60px;
   top: 24px;
   right: 29px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 18px;
@@ -77,7 +77,7 @@ p {
 
 .pod-cast-video-title {
   position: absolute;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
@@ -100,7 +100,7 @@ p {
   width: 28%;
   align-self: center;
   display: flex;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -115,7 +115,7 @@ p {
 }
 
 .scrn2-hdng {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 48px;
@@ -127,7 +127,7 @@ p {
 }
 
 .scrn2-desc {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -182,7 +182,7 @@ p {
 
 .scrn2-blog-desc-title {
   margin-bottom: 30px;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
@@ -193,7 +193,7 @@ p {
 }
 
 .scrn2-blog-desc-content {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;

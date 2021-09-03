@@ -13,7 +13,7 @@ body {
 }
 
 .scrn1-hdng {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 36px;
@@ -39,7 +39,7 @@ body {
 }
 
 .scrn1-desc {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
@@ -86,7 +86,7 @@ body {
 }
 
 .notification {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 21px;
