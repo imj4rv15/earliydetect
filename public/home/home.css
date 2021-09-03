@@ -154,6 +154,7 @@ body {
 
 .scrn2-detail {
   font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: 0.1px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -171,11 +172,11 @@ body {
 }
 
 .scrn2-btn {
-  padding: 10px 20px;
+  padding: 7px 14px;
   border: 2px solid #7B53E8; /* Changed border from 1px to 2px */
   box-sizing: border-box;
   font-weight: 600;
-  border-radius: 37px;
+  border-radius: 21px; /* Changed from 37 to 21 */
   margin-right: 12px;
   cursor: pointer;
   /* text-decoration: none; */
@@ -276,15 +277,13 @@ body {
   border: 2px solid #7B53E8; /* Changed broder from 1px to 2px */
   box-sizing: border-box;
   filter: drop-shadow(0px 19px 29px rgba(62, 53, 120, 0.14));
-  border-radius: 37px;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+  border-radius: 21px; /* Changed from 37 to 21 */
   font-weight: 600;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 27px;
   color: #7B53E8;
   background: transparent;
-  padding: 9px 20px;
+  padding: 7px 14px;
   text-decoration: none;
 }
 
@@ -453,18 +452,17 @@ body {
 }
 
 .scrn4-sub-btn {
-  font-family: Arial, Helvetica, sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 16px;
-  line-height: 34px;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 27px;
   display: flex;
   align-items: center;
   color: #FFFFFF;
   background: #7B53E8;
   border-radius: 60px;
   margin-top: 60px;
-  padding: 11px 43px;
+  padding: 11px 22px;
   outline: none;
   border: none;
 }
