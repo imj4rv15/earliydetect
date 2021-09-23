@@ -15,6 +15,7 @@ body {
 
 .hdr img {
   height: auto;
+  margin: 0 50px;
 }
 
 .hdr .prly {
@@ -24,10 +25,10 @@ body {
   font-size: 14px;
   line-height: 19px;
   display: flex;
-  margin: 25px 9px 0 -67px;
+  margin: 25px 9px 0 -7px;
   flex-direction: column;
-  align-self: center;
-  justify-content: space-around;
+  align-self: flex-start;
+  justify-content: center;
   width: 137px;
   text-align: center;
 }
@@ -193,7 +194,7 @@ body {
 }
 
 .scrn3 {
-  height: 872px;
+  height: 600px; /* Changed from 872 to 600 on 21Sep21  */
   display: flex;
   justify-content: center;
   background: #7B53E8;
@@ -216,7 +217,7 @@ body {
 }
 
 .help-cont {
-  width: 1010px;
+  width: 800px; /* Changed from 1010 to 800 on 21Sep21 */
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -316,7 +317,7 @@ body {
 }
 
 .scrn4-desc span {
-  width: 560px;
+  width: 576px;
   display: block;
   margin-top: 20px;
 }
@@ -444,7 +445,7 @@ body {
 }
 
 .carousel-control-next {
-  right: -10% !important;
+  /* right: -10% !important; */
 }
 
 .carousel-indicators {

@@ -54,7 +54,7 @@ p {
   border-radius: 21px;
   font-family: "Open Sans", sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 900;
   font-size: 18px;
   line-height: 27px;
   color: #7B53E8;
@@ -80,6 +80,14 @@ p {
 .product-2 { 
   display: flex;
   flex-wrap: wrap;
+  margin-bottom: 207px;
+}
+
+/* New addition on 23Sep21  */
+.product-3 { 
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
 }
 
 .product-1 .product-desc {
@@ -87,6 +95,11 @@ p {
 }
 
 .product-2 .product-desc {
+  margin-left: 100px;
+}
+
+/* New addition on 23Sep21  */
+.product-3 .product-desc {
   margin-left: 100px;
 }
 
@@ -164,7 +177,7 @@ p {
     width: 100%;
   }
 
-  .product-1 .product-desc, .product-2 .product-desc {
+  .product-1 .product-desc, .product-2 .product-desc, .product-3 .product-desc {
     margin: 0;
   }
 

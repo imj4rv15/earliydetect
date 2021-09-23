@@ -1,14 +1,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Product</title>
+    <title>About Us</title>
     <link rel="stylesheet" href="./../footer.css">
     <link rel="stylesheet" href="./../header.css">
-    <link rel="stylesheet" href="product.css">
+    <link rel="stylesheet" href="about.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="./../header.js"></script>
-    <script src="./../footer.js"></script>
   </head>
   <body>
     <header class="hdr">
@@ -35,46 +42,57 @@
     </header>
 
     <section class="scrn1">
-      <div class="scrn1-hdng">MIHIC Sciences AI Platform</div>
-      <p class="scrn1-desc">Detects Diseases Early | Stratifies Health Risk Scores | Suggests Timely Medical Interventions</p>
-      <button class="scrn1-btn">Request Demo</button>
-    </section>
+      <div id="carouselExampleIndicators" class="carousel slide portfolio-details-carousel" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./../ed_resources/Team.webp"  alt="MIHIC for Payers">
+          </div>
 
-    <section class="scrn2">
-      <div class="product-1">
-        <div class="product-img">
-          <img src="./../ed_resources/MIHIC_for_Mothers.webp"/>
+          <!-- <div class="carousel-item">
+            <img src="./../ed_resources/MIHIC_for_Mothers.webp"  alt="MIHIC for Pregnant Mothers">
+          </div>
+
+          <div class="carousel-item">
+            <img src="./../ed_resources/MIHIC_for_Providers.webp"  alt="MIHIC for provider">
+          </div> -->
         </div>
-        <div class="product-desc">
-          <div class="product-desc-title"><span class="red-font">MIHIC</span> for Mothers</div>
-          <p class="product-desc-content" style="text-align: justify;">
-            <strong>Are you concerned about your trimesters? Or are you someone planning to be a mother soon?</strong> MIHIC score™ helps you to: Have healthy and risk-free pregnancy. Have timely interventions to avoid/reduce potential risks. Detect and avoid preventable surgical and medical outcomes (C-sections, prolonged labor, postpartum hemorrhage, HAIs...)
-          </p>
-        </div>
+        
+        <!-- <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a> -->
       </div>
 
-      <div class="product-2">
-        <div class="product-img">
-          <img src="./../ed_resources/MIHIC_for_Providers.webp"/>
-        </div>
-        <div class="product-desc">
-          <div class="product-desc-title"><span class="red-font">MIHIC</span> for Providers</div>
-          <p class="product-desc-content" style="text-align: justify;">
-            <strong>Are you a Doctor or a Hospital looking for an efficient maternal and infant healthcare solution?</strong> MIHIC score™ helps you to:Identify high risk mothers for triage and targeted interventions. Get deep granular insights about mothers and infants for healthier patient outcomes. Detect false positives and non-reimbursable expenses during pregnancy.
-          </p>
-        </div>
-      </div>
 
-      <div class="product-3">
-        <div class="product-img">
-          <img src="./../ed_resources/MIHIC_for_Payers.webp"/>
-        </div>
-        <div class="product-desc">
-          <div class="product-desc-title"><span class="red-font">MIHIC</span> for Payers</div>
-          <p class="product-desc-content" style="text-align: justify;">
-            <strong>Are you a Health Insurance company looking to save on claims related to avoidable health risks?</strong> MIHIC score™ helps you to: Stratify pregnant mothers by risk. Detect and prevent avoidable medical interventions. Get detailed cost estimation of pregnancy for a mother.
-          </p>
-        </div>
+      <div class="portfolio-description">
+        <h2 style="color:#7b53e8;font-size:28px;">Our birth and Journey</h2>
+        <p>We are a team of innovators, fascinated by Science in all of its manifestations. We strongly believe that every problem – from delivering personalized medicine to disease alleviation – can be uncovered using deep science applications……</p>
+        <p>Our Founders’ lives could not be more different. They had nothing in common when they met. One of them lived in medicine and biology (Dr. Suresh) while the other (PV) was agnostic towards biological sciences as a student. And yet, they
+          were brought together by a common friend to collaborate for a cancer fundraiser and the rest as they say, is history....</p>
+        <p>This work brought us recognition amongst the world’s leading surgeons and practitioners who became our collaborators... </p>
+
+        <p>We are guided by 7 principles that our Founders wrote as a team charter when they started MIHIC Sciences:</p>
+        <!-- bullet line -->
+        <ul>
+          <li>Do purposeful work at the cutting-edge of innovation and change.</li>
+          <li>Become better every day.</li>
+          <li>Be a student until you go to your grave.</li>
+          <li>Never look for your mirror-image, embrace differences.</li>
+          <li>No success – none whatsoever -- is worth compromising on truth and personal integrity.</li>
+          <li>Let bad news travel on escalators while good news can take the stairs.</li>
+          <li>Enrich your community in every way you can.</li>
+        </ul>
+        <p>Our journey will be constant experimentation and learning. The solutions we build touch lives and offer us pure joy and purpose.</p>
+        <p>If you want to be part of our journey, drop us an email to <a href="mailto:careers@mihicsciences.ai" target="_blank"><strong>careers@mihicsciences.ai</strong></a></p> 
       </div>
       
     </section>
