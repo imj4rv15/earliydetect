@@ -38,14 +38,14 @@
   }
 
   .left-hdr img {
-    height: 47px;
-    width: 180px;
+    height: 60px;
+    width: 150px;
   }
 
-  .left-hdr {
+  /* .left-hdr {
     margin-bottom: 10px;
     margin-top: 7px;
-  }
+  } */
 
   .right-hdr {
     display: none;

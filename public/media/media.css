@@ -191,14 +191,16 @@ p {
   align-items: center;
   color: #363843;
 }
-
+.read_more{
+  font-weight: bold;
+}
 .scrn2-blog-desc-content {
   font-family: "Open Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 28px;
-  display: flex;
+  /* display: flex; */
   align-items: center;
   color: #363843;
 }

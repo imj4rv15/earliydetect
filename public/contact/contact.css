@@ -3,6 +3,25 @@ body {
   max-width: 1980px;
 }
 
+textarea::placeholder {
+  color: #7B53E8;  
+}
+
+.scrn4-sub-btn {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 27px;
+  display: flex;
+  align-items: center;
+  color:  #7B53E8;
+  background: #FFFFFF;
+  border-radius: 60px;
+  margin-top: 20px;
+  padding: 11px 22px;
+  outline: none;
+  border: none;
+}
 .scrn1 {
   background: #7B53E8;
   color: #FFFFFF;
