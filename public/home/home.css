@@ -354,13 +354,17 @@ body {
 .blog-title {
   position: absolute;
   bottom: 20px;
-  left: 17px;
+  left: 12px;
   display: block;
   margin-bottom: 0;
   margin-right: 34px;
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90%;
 }
 
 .pod-cast {
@@ -391,13 +395,17 @@ body {
 .pod-cast-video-title {
   position: absolute;
   bottom: 20px;
-  left: 17px;
+  left: 12px;
   display: block;
   margin-bottom: 0;
   margin-right: 34px;
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90%;
 }
 
 .news {
@@ -423,13 +431,17 @@ body {
 .news-title {
   position: absolute;
   bottom: 20px;
-  left: 17px;
+  left: 12px;
   display: block;
   margin-bottom: 0;
   margin-right: 34px;
   font-size: 14px;
   line-height: 16px;
   color: #FFFFFF;
+  background-color: black;
+  padding: 5px;
+  border-radius: 5px;
+  width: 90%;
 }
 
 .news-image img {
@@ -445,7 +457,7 @@ body {
 }
 
 .carousel-control-next {
-  /* right: -10% !important; */
+  right: -10% !important;
 }
 
 .carousel-indicators {

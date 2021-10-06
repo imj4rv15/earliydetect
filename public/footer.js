@@ -6,3 +6,10 @@ function toggleFooterHamburger() {
     x.style.display = "flex";
   }
 }
+
+function Hover(element) {
+    element.src = element.src.replace('material-outlined','material')
+}
+function unHover(element) {
+    element.src = element.src.replace('material','material-outlined')
+}
